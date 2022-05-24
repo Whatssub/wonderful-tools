@@ -5,6 +5,13 @@
    LICENSE file in the root directory of this source tree.
 */
 
-export function replaceAll(text: string, replace: string | RegExp, to: string) {
+/**
+ * Replace all texts from original text
+ * @param text original text
+ * @param replace text or regExp to replace
+ * @param to replace text to
+ * @returns replaced text
+ */
+export function replaceAll(text: string, replace: string | RegExp, to: string): string {
   return text.split(replace).join(to);
 }
