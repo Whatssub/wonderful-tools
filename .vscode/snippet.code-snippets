@@ -1,0 +1,16 @@
+{
+  "whatssub-license-MIT": {
+    "prefix": "wm",
+    "description": "Add license comment",
+    "body": [
+      "/*",
+      "\tCopyright 2022. Whatssub co.,Ltd.",
+      "",
+      "\tThis source code is licensed under the MIT license found in the",
+      "\t LICENSE file in the root directory of this source tree.",
+      "*/",
+      "",
+      ""
+    ]
+  }
+}
