@@ -7,7 +7,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "init:vscode": "yarn dlx @yarnpkg/sdks vscode",
-    "build": "tsc"
+    "build": "tsc && tsc-alias"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Whatssub/wonderful-tools#readme",
   "devDependencies": {
+    "tsc-alias": "^1.6.7",
     "typescript": "^4.6.4"
   }
 }

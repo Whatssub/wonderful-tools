@@ -5,6 +5,4 @@
    LICENSE file in the root directory of this source tree.
 */
 
-import * as tools from './index.sort';
-
-export default tools;
+export * from './roundTo';
