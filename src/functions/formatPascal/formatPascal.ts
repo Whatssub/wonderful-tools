@@ -5,20 +5,19 @@
    LICENSE file in the root directory of this source tree.
 */
 
-import { formatSentence } from '~/formatSentence';
+import { formatSentence } from '@function/formatSentence';
 
 /**
- * Format given text to camelCase
+ * Format given text to PascalCase
  * @param text text to format
  * @returns formatted text
  */
-export function formatCamel(text: string) {
+export function formatPascal(text: string) {
   const spaced = formatSentence(text);
 
   return spaced
     .split(' ')
-    .map((word, index) => {
-      if (index === 0) return word;
+    .map((word) => {
       return word.split('').map((char, i) => {
         if (i === 0) return char.toUpperCase();
         return char.toLowerCase();

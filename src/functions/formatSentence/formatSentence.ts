@@ -5,7 +5,7 @@
    LICENSE file in the root directory of this source tree.
 */
 
-import { replaceAll } from '~/replaceAll';
+import { replaceAll } from '@function/replaceAll';
 
 /**
  * Format given camel cased text to spaced sentence

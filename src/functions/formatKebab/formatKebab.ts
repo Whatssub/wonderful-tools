@@ -5,16 +5,16 @@
    LICENSE file in the root directory of this source tree.
 */
 
-import { formatSentence } from '~/formatSentence';
-import { replaceAll } from '~/replaceAll';
+import { formatSentence } from '@function/formatSentence';
+import { replaceAll } from '@function/replaceAll';
 
 /**
- * Format given text to snake_case
+ * Format given text to kebab-case
  * @param text text to format
  * @returns formatted text
  */
-export function formatSnake(text: string) {
+export function formatKebab(text: string) {
   const spaced = formatSentence(text);
 
-  return replaceAll(spaced, ' ', '_');
+  return replaceAll(spaced, ' ', '-');
 }
