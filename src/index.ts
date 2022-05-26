@@ -8,4 +8,6 @@
 import * as functions from '@function';
 import * as types from '@type';
 
+export * from './functions';
+export * from './types';
 export default { ...functions, ...types };
