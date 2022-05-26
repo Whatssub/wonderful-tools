@@ -14,3 +14,10 @@ export type ObjectElements<T extends { [key: string]: any }> = T[keyof T];
  * Generate object which exact type
  */
 export type ObjectFactory<T> = { [key: string]: T };
+
+/**
+ * Generate recursive object
+ */
+export type RecursiveObject<T> = {
+  [key: string]: RecursiveObject<T> | T;
+};
