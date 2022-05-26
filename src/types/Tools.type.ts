@@ -9,3 +9,8 @@
  * Get the union type of Interface or Object Type's Elements
  */
 export type ObjectElements<T extends { [key: string]: any }> = T[keyof T];
+
+/**
+ * Generate object which exact type
+ */
+export type ObjectFactory<T> = { [key: string]: T };

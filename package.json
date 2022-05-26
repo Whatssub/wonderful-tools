@@ -2,7 +2,7 @@
   "name": "wonderful-tools",
   "packageManager": "yarn@3.2.0",
   "description": "...And they'll do wonderful things",
-  "version": "0.0.1-alpha.6",
+  "version": "0.0.1-alpha.7",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
