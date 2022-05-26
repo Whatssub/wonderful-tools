@@ -18,6 +18,8 @@ export type ObjectFactory<T> = { [key: string]: T };
 /**
  * Generate recursive object
  */
-export type RecursiveObject<T> = {
-  [key: string]: RecursiveObject<T> | T;
-};
+export type RecursiveObject<T> =
+  | {
+      [key: string]: RecursiveObject<T>;
+    }
+  | T;
