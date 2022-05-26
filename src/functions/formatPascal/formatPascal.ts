@@ -18,10 +18,13 @@ export function formatPascal(text: string) {
   return spaced
     .split(' ')
     .map((word) => {
-      return word.split('').map((char, i) => {
-        if (i === 0) return char.toUpperCase();
-        return char.toLowerCase();
-      });
+      return word
+        .split('')
+        .map((char, i) => {
+          if (i === 0) return char.toUpperCase();
+          return char.toLowerCase();
+        })
+        .join('');
     })
     .join('');
 }
