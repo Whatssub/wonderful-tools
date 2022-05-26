@@ -5,7 +5,7 @@
    LICENSE file in the root directory of this source tree.
 */
 
-import * as functions from '@function';
-import * as types from '@type';
-
-export default { ...functions, ...types };
+/**
+ * Get the union type of Interface or Object Type's Elements
+ */
+export type ObjectElements<T extends { [key: string]: any }> = T[keyof T];

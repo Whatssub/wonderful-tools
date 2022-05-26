@@ -5,7 +5,6 @@
    LICENSE file in the root directory of this source tree.
 */
 
-import * as functions from '@function';
-import * as types from '@type';
-
-export default { ...functions, ...types };
+export * from './PackageJson.type';
+export * from './Tools.type';
+export * from './Utility.type';
