@@ -3,4 +3,4 @@
   All rights reserved.
 */
 
-export * from './ObjectKeys';
+export * from './getObjectKeys';

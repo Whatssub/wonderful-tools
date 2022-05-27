@@ -8,6 +8,6 @@
  * @param obj object to extract keys from
  * @returns key of given object
  */
-export function ObjectKeys<T extends object>(obj: T): (keyof T)[] {
+export function getObjectKeys<T extends object>(obj: T): (keyof T)[] {
   return Object.keys(obj) as (keyof T)[];
 }

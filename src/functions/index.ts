@@ -10,6 +10,6 @@ export * from './formatKebab';
 export * from './formatPascal';
 export * from './formatSentence';
 export * from './formatSnake';
-export * from './ObjectKeys';
+export * from './getObjectKeys';
 export * from './replaceAll';
 export * from './roundTo';
