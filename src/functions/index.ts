@@ -10,6 +10,7 @@ export * from './formatKebab';
 export * from './formatPascal';
 export * from './formatSentence';
 export * from './formatSnake';
+export * from './getCountedArray';
 export * from './getObjectKeys';
 export * from './replaceAll';
 export * from './roundTo';
