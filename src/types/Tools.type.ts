@@ -12,6 +12,7 @@ export type ObjectElements<T extends { [key: string]: any }> = T[keyof T];
 
 /**
  * Generate object which exact type
+ * @deprecated Use Record<string, T> instead
  */
 export type ObjectFactory<T> = { [key: string]: T };
 
