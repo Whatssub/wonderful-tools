@@ -15,3 +15,4 @@ export * from './getIndexArray';
 export * from './getObjectKeys';
 export * from './replaceAll';
 export * from './roundTo';
+export * from './trim';
