@@ -8,8 +8,10 @@
   "scripts": {
     "init:vscode": "yarn dlx @yarnpkg/sdks vscode",
     "test": "ts-node -r tsconfig-paths/register ./__test__/formatCamel.test.ts",
-    "build": "tsc && tsc-alias",
-    "publish": "yarn npm publish"
+    "build": "echo \"[wonderful-tools] build - 👀\" && yarn build:clear && yarn build:types && echo \"[wonderful-tools] build - ✅\"",
+    "build:clear": "echo \"[wonderful-tools] build:clear - 👀\" && rm -rf ./dist && echo \"[wonderful-tools] build:clear - ✅\"",
+    "build:types": "echo \"[wonderful-tools] build:types - 👀\" && tsc && tsc-alias && echo \"[wonderful-tools] build:types - ✅\"",
+    "publish": "echo \"[wonderful-tools] publish - 👀\" && yarn npm publish && echo \"[wonderful-tools] publish - ✅\""
   },
   "repository": {
     "type": "git",
