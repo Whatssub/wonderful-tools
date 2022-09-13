@@ -7,6 +7,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "init:vscode": "yarn dlx @yarnpkg/sdks vscode",
+    "test": "ts-node -r tsconfig-paths/register ./__test__/formatCamel.test.ts",
     "build": "tsc && tsc-alias",
     "publish": "yarn npm publish"
   },
@@ -24,7 +25,10 @@
   },
   "homepage": "https://github.com/Whatssub/wonderful-tools#readme",
   "devDependencies": {
+    "@types/node": "^18.7.17",
+    "ts-node": "^10.9.1",
     "tsc-alias": "^1.6.7",
+    "tsconfig-paths": "^4.1.0",
     "typescript": "^4.6.4"
   }
 }

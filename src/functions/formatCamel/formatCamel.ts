@@ -9,20 +9,22 @@ import { formatSentence } from '@function/formatSentence';
 
 /**
  * Format given text to camelCase
+ *
  * @param text text to format
  * @returns formatted text
  */
 export function formatCamel(text: string) {
-  const spaced = formatSentence(text);
+  // Normalize via sentence case
+  const normalized = formatSentence(text);
 
-  return spaced
+  return normalized
     .split(' ')
     .map((word, index) => {
+      // Ignore First word
       if (index === 0) return word;
-      return word.split('').map((char, i) => {
-        if (i === 0) return char.toUpperCase();
-        return char.toLowerCase();
-      });
+
+      // UpperCase First Letter
+      return word.charAt(0).toUpperCase() + word.slice(1);
     })
     .join('');
 }
