@@ -9,7 +9,7 @@ function test() {
   const start = 'destructive-secondary';
   const expect = 'destructiveSecondary';
 
-  console.log(formatCamel(start), expect);
+  console.log(formatCamel(start) === expect);
 }
 
 test();
