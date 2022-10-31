@@ -18,3 +18,12 @@ export type RecursiveObject<T> =
       [key: string]: RecursiveObject<T>;
     }
   | T;
+
+/**
+ * Extract type of element of the array.
+ *
+ * returns via union type.
+ */
+export type ArrayElements<ArrayType extends readonly unknown[]> = ArrayType extends readonly (infer ElementType)[]
+  ? ElementType
+  : never;
