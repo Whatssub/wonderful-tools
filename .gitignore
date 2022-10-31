@@ -12,3 +12,6 @@
 
 # Build Files
 dist/
+
+# macOS Files
+.DS_Store
