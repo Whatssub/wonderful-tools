@@ -5,7 +5,7 @@
    LICENSE file in the root directory of this source tree.
 */
 
-import { ObjectElements } from '@type/Tools.type';
+import type { ObjectElements } from '@type/Tools.type';
 
 /**
  * ID

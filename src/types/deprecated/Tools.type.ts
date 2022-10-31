@@ -5,7 +5,9 @@
    LICENSE file in the root directory of this source tree.
 */
 
-export * from './deprecated';
-export * from './PackageJson.type';
-export * from './Tools.type';
-export * from './Utility.type';
+/**
+ * Generate object which exact type
+ *
+ * @deprecated Use Record<string, T> instead
+ */
+export type ObjectFactory<T> = { [key: string]: T };

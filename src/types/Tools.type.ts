@@ -8,13 +8,7 @@
 /**
  * Get the union type of Interface or Object Type's Elements
  */
-export type ObjectElements<T extends { [key: string]: any }> = T[keyof T];
-
-/**
- * Generate object which exact type
- * @deprecated Use Record<string, T> instead
- */
-export type ObjectFactory<T> = { [key: string]: T };
+export type ObjectElements<T extends Record<string, any>> = T[keyof T];
 
 /**
  * Generate recursive object
