@@ -13,6 +13,7 @@ export * from './formatSnake';
 export * from './getCountedArray';
 export * from './getIndexArray';
 export * from './getObjectKeys';
+export * from './isSimilar';
 export * from './replaceAll';
 export * from './roundTo';
 export * from './trim';
