@@ -4,4 +4,4 @@
 */
 
 export { default as Queue } from './queue';
-export type * from './queue.d';
+export * from './queue.d';

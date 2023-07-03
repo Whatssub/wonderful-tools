@@ -5,5 +5,5 @@
 
 export { Queue } from './queue';
 export { Stack } from './stack';
-export { Heap, MaxHeap, Minheap } from './heap';
+export { Heap, MaxHeap, MinHeap } from './heap';
 export { PriorityQueue } from './priorityQueue';

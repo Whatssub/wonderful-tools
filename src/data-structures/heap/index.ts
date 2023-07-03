@@ -5,7 +5,7 @@
 
 export { default as Heap } from './heap';
 export { default as MaxHeap } from './maxHeap';
-export { default as Minheap } from './minHeap';
-export type * from './heap.d';
-export type * from './maxHeap.d';
-export type * from './minHeap.d';
+export { default as MinHeap } from './minHeap';
+export * from './heap.d';
+export * from './maxHeap.d';
+export * from './minHeap.d';

@@ -4,4 +4,4 @@
 */
 
 export { default as Stack } from './stack';
-export type * from './stack.d';
+export * from './stack.d';
