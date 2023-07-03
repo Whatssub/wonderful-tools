@@ -3,7 +3,7 @@
     "**/.yarn": true,
     "**/.pnp.*": true
   },
-  "cSpell.words": ["Nuevo"],
+  "cSpell.words": ["heapify", "Nuevo", "whatisyourname"],
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
