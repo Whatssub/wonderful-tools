@@ -4,7 +4,7 @@
 */
 
 import type { Comparator } from '../types/ds.type';
-import Heap from './heap';
+import { Heap } from './heap';
 
 const createMinCmp =
   <U>(getCmpVal: U) =>
@@ -27,7 +27,7 @@ const createMinCmp =
  * @extends Heap
  * @author @whatisyourname0
  */
-export default class MinHeap<T = any> {
+export class MinHeap<T = any> {
   private _heap;
   private _getCmpValue;
 

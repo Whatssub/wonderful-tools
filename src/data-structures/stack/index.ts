@@ -3,5 +3,4 @@
   All rights reserved.
 */
 
-export { default as Stack } from './stack';
-export * from './stack.d';
+export * from "./stack";

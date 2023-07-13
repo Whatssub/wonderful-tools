@@ -9,7 +9,7 @@ import type { CmpFunction } from '../types/ds.type';
 /**
  * 우선순위 큐를 힙 구조를 바탕으로 구현한 클래스입니다.
  */
-export default class PriorityQueue<T = any> {
+export class PriorityQueue<T = any> {
   private _heap;
 
   /**

@@ -11,7 +11,7 @@
  * @class Queue
  * @author @whatisyourname0
  */
-export default class Queue<T = any> {
+export class Queue<T = any> {
   private _data: T[] = []; // 큐 데이터
   private _ptrIdx: number = 0; // 빠른 연산을 위한 인덱스 데이터
 

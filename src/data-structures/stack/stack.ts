@@ -8,7 +8,7 @@
  * @class Stack
  * @author @whatisyourname0
  */
-export default class Stack<T = any> {
+export class Stack<T = any> {
   private _data: T[] = [];
 
   /**

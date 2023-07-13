@@ -3,5 +3,4 @@
   All rights reserved.
 */
 
-export { default as Queue } from './queue';
-export * from './queue.d';
+export * from "./queue";

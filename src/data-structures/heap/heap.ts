@@ -13,7 +13,7 @@ import type { CmpFunction } from '../types/ds.type';
  * @class Heap
  * @author @whatisyourname0
  */
-export default class Heap<T = any> {
+export class Heap<T = any> {
   private _nodes;
   private _leaf;
   private _cmp;

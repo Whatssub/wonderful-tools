@@ -6,7 +6,14 @@
 */
 
 import * as functions from '@function';
+import * as ds from "./data-structures";
+import * as array from "./array";
 
 export * from './functions';
 export * from './types';
-export default { ...functions };
+
+export * as ds from "./data-structures";
+export * as array from "./array";
+export * as functions from "./functions";
+
+export default { ...functions, ...ds, ...array };

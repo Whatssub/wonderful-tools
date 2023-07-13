@@ -3,7 +3,7 @@
   All rights reserved.
 */
 
-export { Queue } from './queue';
-export { Stack } from './stack';
-export { Heap, MaxHeap, MinHeap } from './heap';
-export { PriorityQueue } from './priorityQueue';
+export * from "./heap";
+export * from "./priorityQueue";
+export * from "./queue";
+export * from "./stack";

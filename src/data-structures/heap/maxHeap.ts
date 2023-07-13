@@ -4,7 +4,7 @@
 */
 
 import type { Comparator } from '../types/ds.type';
-import Heap from './heap';
+import { Heap } from './heap';
 
 const createMaxCmp =
   <U>(getCmpVal: U) =>
@@ -27,7 +27,7 @@ const createMaxCmp =
  * @extends Heap
  * @author @whatisyourname0
  */
-export default class MaxHeap<T = any> {
+export class MaxHeap<T = any> {
   private _getCmpValue;
   private _heap;
 
