@@ -1320,11 +1320,89 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@wonderful-tools/fp@workspace:packages/fp":
+"@wonderful-tools/fp@workspace:^, @wonderful-tools/fp@workspace:packages/fp":
   version: 0.0.0-use.local
   resolution: "@wonderful-tools/fp@workspace:packages/fp"
   dependencies:
     "@wonderful-tools/fp-option": "workspace:^"
+    tsc-alias: ^1.8.8
+    typescript: ^5.2.2
+  languageName: unknown
+  linkType: soft
+
+"@wonderful-tools/node-package-json@workspace:^, @wonderful-tools/node-package-json@workspace:lib/node-package-json":
+  version: 0.0.0-use.local
+  resolution: "@wonderful-tools/node-package-json@workspace:lib/node-package-json"
+  dependencies:
+    "@wonderful-tools/type-email": "workspace:^"
+    "@wonderful-tools/util-semver": "workspace:^"
+    "@wonderful-tools/util-spdx": "workspace:^"
+    tsc-alias: ^1.8.8
+    typescript: ^5.2.2
+  peerDependencies:
+    "@wonderful-tools/util-semver": "workspace:^"
+    "@wonderful-tools/util-spdx": "workspace:^"
+  languageName: unknown
+  linkType: soft
+
+"@wonderful-tools/node@workspace:^, @wonderful-tools/node@workspace:packages/node":
+  version: 0.0.0-use.local
+  resolution: "@wonderful-tools/node@workspace:packages/node"
+  dependencies:
+    "@wonderful-tools/node-package-json": "workspace:^"
+    tsc-alias: ^1.8.8
+    typescript: ^5.2.2
+  languageName: unknown
+  linkType: soft
+
+"@wonderful-tools/type-email@workspace:^, @wonderful-tools/type-email@workspace:lib/type-email":
+  version: 0.0.0-use.local
+  resolution: "@wonderful-tools/type-email@workspace:lib/type-email"
+  dependencies:
+    "@wonderful-tools/util-semver": "workspace:^"
+    "@wonderful-tools/util-spdx": "workspace:^"
+    tsc-alias: ^1.8.8
+    typescript: ^5.2.2
+  peerDependencies:
+    "@wonderful-tools/util-semver": "workspace:^"
+    "@wonderful-tools/util-spdx": "workspace:^"
+  languageName: unknown
+  linkType: soft
+
+"@wonderful-tools/type@workspace:^, @wonderful-tools/type@workspace:packages/type":
+  version: 0.0.0-use.local
+  resolution: "@wonderful-tools/type@workspace:packages/type"
+  dependencies:
+    "@wonderful-tools/type-email": "workspace:^"
+    tsc-alias: ^1.8.8
+    typescript: ^5.2.2
+  languageName: unknown
+  linkType: soft
+
+"@wonderful-tools/util-semver@workspace:^, @wonderful-tools/util-semver@workspace:lib/util-semver":
+  version: 0.0.0-use.local
+  resolution: "@wonderful-tools/util-semver@workspace:lib/util-semver"
+  dependencies:
+    tsc-alias: ^1.8.8
+    typescript: ^5.2.2
+  languageName: unknown
+  linkType: soft
+
+"@wonderful-tools/util-spdx@workspace:^, @wonderful-tools/util-spdx@workspace:lib/util-spdx":
+  version: 0.0.0-use.local
+  resolution: "@wonderful-tools/util-spdx@workspace:lib/util-spdx"
+  dependencies:
+    tsc-alias: ^1.8.8
+    typescript: ^5.2.2
+  languageName: unknown
+  linkType: soft
+
+"@wonderful-tools/util@workspace:^, @wonderful-tools/util@workspace:packages/util":
+  version: 0.0.0-use.local
+  resolution: "@wonderful-tools/util@workspace:packages/util"
+  dependencies:
+    "@wonderful-tools/util-semver": "workspace:^"
+    "@wonderful-tools/util-spdx": "workspace:^"
     tsc-alias: ^1.8.8
     typescript: ^5.2.2
   languageName: unknown
@@ -7481,6 +7559,10 @@ __metadata:
     "@react-native/eslint-config": ^0.72.2
     "@typescript-eslint/eslint-plugin": ^6.7.2
     "@typescript-eslint/parser": ^6.7.2
+    "@wonderful-tools/fp": "workspace:^"
+    "@wonderful-tools/node": "workspace:^"
+    "@wonderful-tools/type": "workspace:^"
+    "@wonderful-tools/util": "workspace:^"
     eslint: ^8.49.0
     eslint-config-prettier: ^9.0.0
     eslint-config-whatssub: ^0.0.13
@@ -7490,6 +7572,7 @@ __metadata:
     eslint-plugin-react-native: ^4.1.0
     eslint-plugin-unused-imports: ^3.0.0
     prettier: ^3.0.3
+    tsc-alias: ^1.8.8
     typescript: ^5.2.2
   languageName: unknown
   linkType: soft
