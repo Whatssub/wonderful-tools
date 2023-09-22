@@ -36,7 +36,8 @@
     ".pnp.cjs": "yarn",
     ".pnp.loader.mjs": "yarn",
     "extensions.json": "vscode",
-    "settings.json": "vscode"
+    "settings.json": "vscode",
+    "tsconfig.root.json": "tsconfig"
   },
   "material-icon-theme.folders.associations": {
     "expo-app": "app",
