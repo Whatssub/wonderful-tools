@@ -1,7 +1,6 @@
 {
   "name": "wonderful-tools",
   "description": "...And they'll do wonderful things",
-  "private": true,
   "version": "1.0.0",
   "packageManager": "yarn@3.6.3",
   "license": "MIT",
@@ -29,7 +28,10 @@
   "scripts": {
     "init:vscode": "yarn dlx @yarnpkg/sdks vscode",
     "sync:version": "./scripts/version.sh",
-    "ready": "yarn ready:lib && yarn ready:packages",
+    "build": "yarn build:clear && yarn build:types",
+    "build:clear": "rm -rf dist",
+    "build:types": "tsc -b && tsc-alias",
+    "ready": "yarn ready:lib && yarn ready:packages && yarn build",
     "ready:lib": "yarn ready:lib:fp-option",
     "ready:lib:fp-option": "yarn workspace @wonderful-tools/fp-option build",
     "ready:packages": "yarn ready:packages:fp",
@@ -41,6 +43,12 @@
     "readme:version": "./scripts/readme_version.sh",
     "readme:format": "prettier --write \"./README.md\" --log-level silent",
     "version": "yarn sync:version && yarn readme"
+  },
+  "dependencies": {
+    "@wonderful-tools/fp": "workspace:^",
+    "@wonderful-tools/node": "workspace:^",
+    "@wonderful-tools/type": "workspace:^",
+    "@wonderful-tools/util": "workspace:^"
   },
   "devDependencies": {
     "@lerna-lite/cli": "^2.5.1",
@@ -57,6 +65,7 @@
     "eslint-plugin-react-native": "^4.1.0",
     "eslint-plugin-unused-imports": "^3.0.0",
     "prettier": "^3.0.3",
+    "tsc-alias": "^1.8.8",
     "typescript": "^5.2.2"
   }
 }
