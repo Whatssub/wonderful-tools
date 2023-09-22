@@ -27,7 +27,12 @@
     }
   ],
   "scripts": {
-    "init:vscode": "yarn dlx @yarnpkg/sdks vscode"
+    "init:vscode": "yarn dlx @yarnpkg/sdks vscode",
+    "ready": "yarn ready:lib && yarn ready:packages",
+    "ready:lib": "yarn ready:lib:fp-option",
+    "ready:lib:fp-option": "yarn workspace @wonderful-tools/fp-option build",
+    "ready:packages": "yarn ready:packages:fp",
+    "ready:packages:fp": "yarn workspace @wonderful-tools/fp build"
   },
   "devDependencies": {
     "@lerna-lite/cli": "^2.5.1",
