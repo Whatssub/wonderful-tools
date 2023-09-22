@@ -6,7 +6,7 @@
   "packageManager": "yarn@3.6.3",
   "license": "MIT",
   "workspaces": [
-    "lib/**/*",
+    "lib/*",
     "packages/*"
   ],
   "repository": {
