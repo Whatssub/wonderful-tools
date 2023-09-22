@@ -1,0 +1,58 @@
+/**
+ * Copyright 2023 Whatssub Co., Ltd. All rights reserved.
+ *
+ * This source code is licensed under the Apache 2.0 license found in the
+ * LICENSE file in the root directory of this source tree.
+ */ {
+  // Mistype Check
+  // Recommend to install "code-spell-checker"
+  "cSpell.words": ["echoscript", "whatisyourname", "zods"],
+  // Snippet Recommandation
+  // Turn on for License
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "other": true
+    }
+  },
+  // Hide Useless Files
+  // Recommend to install "Hide Node Modules"
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true
+  },
+  // Chagne Folder/File Icon
+  // Recommend to install "Material Icon Theme"
+  "material-icon-theme.files.associations": {
+    "*.type.ts": "typescript-def",
+    ".echoscriptrc": "settings",
+    ".pnp.cjs": "yarn",
+    ".pnp.loader.mjs": "yarn",
+    "extensions.json": "vscode",
+    "settings.json": "vscode"
+  },
+  "material-icon-theme.folders.associations": {
+    "expo-app": "app",
+    "next-app": "app",
+    "next-web": "app",
+    "react-app": "app",
+    "react-native-app": "app",
+    "react-web": "app"
+  },
+  // Exclude cache file from search
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "eslint.nodePath": ".yarn/sdks",
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js",
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}

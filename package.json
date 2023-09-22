@@ -1,0 +1,49 @@
+{
+  "name": "wonderful-tools",
+  "description": "...And they'll do wonderful things",
+  "private": true,
+  "version": "1.0.0",
+  "packageManager": "yarn@3.6.3",
+  "license": "MIT",
+  "workspaces": [
+    "lib/**/*",
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Whatssub/wonderful-tools.git",
+    "directory": "."
+  },
+  "author": {
+    "name": "Taeyoon Lee",
+    "email": "taeyoon0137@gmail.com",
+    "url": "https://github.com/taeyoon0137"
+  },
+  "contributors": [
+    {
+      "name": "Joonho Lee",
+      "email": "mynameisjune111@gmail.com",
+      "url": "https://github.com/whatisyourname0"
+    }
+  ],
+  "scripts": {
+    "init:vscode": "yarn dlx @yarnpkg/sdks vscode"
+  },
+  "devDependencies": {
+    "@lerna-lite/cli": "^2.5.1",
+    "@lerna-lite/publish": "^2.5.1",
+    "@react-native/eslint-config": "^0.72.2",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-whatssub": "^0.0.13",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-native": "^4.1.0",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  }
+}

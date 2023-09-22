@@ -1,0 +1,51 @@
+/**
+ * Copyright 2023 Whatssub Co., Ltd. All rights reserved.
+ *
+ * This source code is licensed under the Apache 2.0 license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+{
+  "[JS/TS] Whatssub Apache 2.0": {
+    "description": "For the specification of open-source license rights, the license notice written at the top of every file.",
+    "prefix": ["lc", "wl"],
+    "body": [
+      "/**",
+      " * Copyright $CURRENT_YEAR Whatssub Co., Ltd. All rights reserved.",
+      " *",
+      " * This source code is licensed under the Apache 2.0 license found in the",
+      " * LICENSE file in the root directory of this source tree.",
+      " */",
+      "",
+      ""
+    ],
+    "scope": "javascript, javascriptreact, typescript, typescriptreact, json, jsonc"
+  },
+  "[PY/YAML/PLAIN] Whatssub Apache 2.0": {
+    "description": "For the specification of open-source license rights, the license notice written at the top of every file.",
+    "prefix": ["lc", "wl"],
+    "body": [
+      "# Copyright $CURRENT_YEAR Whatssub Co., Ltd. All rights reserved.",
+      "#",
+      "# This source code is licensed under the Apache 2.0 license found in the",
+      "# LICENSE file in the root directory of this source tree.",
+      "",
+      ""
+    ],
+    "scope": "python, yaml, plaintext"
+  },
+  "[XML/MD] Whatssub Apache 2.0": {
+    "description": "For the specification of open-source license rights, the license notice written at the top of every file.",
+    "prefix": ["lc", "wl"],
+    "body": [
+      "<!--",
+      "  Copyright $CURRENT_YEAR Whatssub Co., Ltd. All rights reserved.",
+      "",
+      "  This source code is licensed under the Apache 2.0 license found in the",
+      "  LICENSE file in the root directory of this source tree.",
+      "-->",
+      "",
+      ""
+    ],
+    "scope": "xml, html, markdown"
+  }
+}
