@@ -1,6 +1,6 @@
 {
   "name": "wonderful-tools",
-  "packageManager": "yarn@3.2.0",
+  "packageManager": "yarn@3.6.3",
   "description": "...And they'll do wonderful things",
   "version": "0.2.0",
   "main": "dist/index.js",
