@@ -17,7 +17,7 @@
 <!-- Hero Image -->
 <!-- <p align="center">
   <a href="https://github.com/whatssub/wonderful-tools.git">
-    <img alt="Wonderful Tools" src="./resources/assets/img_wonderful_tools_hero.svg" style="width: 100%; overflow: hidden; object-fit: cover; " />
+    <img alt="Wonderful Tools" src="./assets/img_wonderful_tools_hero.svg" style="width: 100%; overflow: hidden; object-fit: cover; " />
   </a>
 </p> -->
 
@@ -28,7 +28,7 @@
 <!-- Version -->
 <p align="center">
   <a href="https://github.com/Whatssub/wonderful-tools.git">
-    <img alt="Recent version is 0.1.0" src="https://img.shields.io/badge/0.1.0-%23FFFFFF?&label=wonderful%20tools&labelColor=%23222A3E" />
+    <img alt="Recent version is ${version}" src="https://img.shields.io/badge/${version}-%23FFFFFF?&label=wonderful%20tools&labelColor=%23222A3E" />
   </a>
 </p>
 
@@ -58,16 +58,13 @@
 </p>
 
 <!-- ToC -->
-
 **Table of Contents**
-
 - [🔥 Getting Started](#-getting-started)
 - [🗃️ Packages](#️-packages)
 - [🧑‍💻 Contribution](#-contribution)
 - [🪪 License](#-license)
 
 <!-- Details -->
-
 ## 🔥 Getting Started
 
 ## 🗃️ Packages
