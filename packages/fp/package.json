@@ -1,0 +1,30 @@
+{
+  "name": "@wonderful-tools/fp",
+  "description": "Package provides utilities for functional programming.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Whatssub/wonderful-tools.git",
+    "directory": "./packages/fp"
+  },
+  "author": {
+    "name": "Joonho Lee",
+    "email": "mynameisjune111@gmail.com",
+    "url": "https://github.com/whatisyourname0"
+  },
+  "scripts": {
+    "build": "yarn build:clear && yarn build:types",
+    "build:clear": "rm -rf dist",
+    "build:types": "tsc -b && tsc-alias"
+  },
+  "devDependencies": {
+    "tsc-alias": "^1.8.8",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@wonderful-tools/fp-option": "workspace:^"
+  }
+}
