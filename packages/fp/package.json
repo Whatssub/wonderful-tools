@@ -11,9 +11,9 @@
     "directory": "./packages/fp"
   },
   "author": {
-    "name": "Joonho Lee",
-    "email": "mynameisjune111@gmail.com",
-    "url": "https://github.com/whatisyourname0"
+    "name": "Taeyoon Lee",
+    "email": "taeyoon0137@gmail.com",
+    "url": "https://github.com/taeyoon0137"
   },
   "scripts": {
     "build": "yarn build:clear && yarn build:types",
