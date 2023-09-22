@@ -1,0 +1,30 @@
+{
+  "name": "@wonderful-tools/type",
+  "description": "Package provides utilities for functional programming.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Whatssub/wonderful-tools.git",
+    "directory": "./packages/type"
+  },
+  "author": {
+    "name": "Taeyoon Lee",
+    "email": "taeyoon0137@gmail.com",
+    "url": "https://github.com/taeyoon0137"
+  },
+  "scripts": {
+    "build": "yarn build:clear && yarn build:types",
+    "build:clear": "rm -rf dist",
+    "build:types": "tsc -b && tsc-alias"
+  },
+  "devDependencies": {
+    "tsc-alias": "^1.8.8",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@wonderful-tools/type-email": "workspace:^"
+  }
+}
