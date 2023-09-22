@@ -28,7 +28,7 @@
 <!-- Version -->
 <p align="center">
   <a href="https://github.com/Whatssub/wonderful-tools.git">
-    <img alt="Recent version is 0.1.0" src="https://img.shields.io/badge/0.1.0-%23FFFFFF?&label=wonderful%20tools&labelColor=%23222A3E" />
+    <img alt="Recent version is 1.0.0" src="https://img.shields.io/badge/1.0.0-%23FFFFFF?&label=wonderful%20tools&labelColor=%23222A3E" />
   </a>
 </p>
 
