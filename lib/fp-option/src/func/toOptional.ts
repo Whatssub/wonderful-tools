@@ -14,8 +14,6 @@ import type { Option } from '@types';
  *
  * @param fn Conditional test callback function
  * @returns Conditional test function
- *
- * @author Taeyoon Lee <taeyoon0137@gmail.com>
  */
 export function toOptional<I, O extends I>(fn: (input: I) => input is O) {
   return (arg: I): Option<O> => {

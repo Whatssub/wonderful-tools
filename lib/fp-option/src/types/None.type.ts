@@ -11,8 +11,6 @@ import { OPTION_CONSTANT } from '@configs';
  * ### None type
  *
  * Used when there is no value.
- *
- * @author Taeyoon Lee <taeyoon0137@gmail.com>
  */
 export type None = {
   /**

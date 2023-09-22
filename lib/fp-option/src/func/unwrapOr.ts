@@ -15,8 +15,6 @@ import type { Option } from '@types';
  * @param opt The Option value to extract the real value from
  * @param fallback The fallback value to return if opt is 'none'
  * @returns The data extracted from the given option or the fallback value
- *
- * @author Taeyoon Lee <taeyoon0137@gmail.com>
  */
 export function unwrapOr<T>(opt: Option<T>, fallback: T): T {
   try {

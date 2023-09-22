@@ -14,8 +14,6 @@ import type { Option } from '@types';
  *
  * @param value Data to process
  * @returns Value converted to Option type
- *
- * @author Taeyoon Lee <taeyoon0137@gmail.com>
  */
 export function optionalCheck<T>(value: T): Option<T> {
   try {

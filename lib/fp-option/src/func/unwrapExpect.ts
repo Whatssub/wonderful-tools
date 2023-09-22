@@ -15,8 +15,6 @@ import type { Option } from '@types';
  * @param opt The Option value to extract the real value from
  * @param msg The error message to display if extraction is not possible
  * @returns The data extracted from the given option
- *
- * @author Taeyoon Lee <taeyoon0137@gmail.com>
  */
 export function unwrapExpect<T>(opt: Option<T>, msg: string): T {
   try {

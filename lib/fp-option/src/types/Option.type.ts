@@ -12,7 +12,5 @@ import type { Some } from './Some.type';
  * ### Option type
  *
  * Used when a value may or may not be present.
- *
- * @author Taeyoon Lee <taeyoon0137@gmail.com>
  */
 export type Option<T> = Some<T> | None;

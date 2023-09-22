@@ -14,8 +14,6 @@ import type { Option } from '@types';
  *
  * @param opt The Option value to extract the real value from
  * @returns The data extracted from the given option
- *
- * @author Taeyoon Lee <taeyoon0137@gmail.com>
  */
 export function unwrap<T>(opt: Option<T>): T {
   if (opt._type === OPTION_CONSTANT.TYPE_SOME) {

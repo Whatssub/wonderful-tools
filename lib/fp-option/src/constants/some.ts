@@ -16,7 +16,5 @@ import type { Some } from '@types';
  *
  * @param value Value to treat as Some
  * @returns Some
- *
- * @author Taeyoon Lee <taeyoon0137@gmail.com>
  */
 export const some = <T>(value: T): Some<T> => ({ _type: OPTION_CONSTANT.TYPE_SOME, value });

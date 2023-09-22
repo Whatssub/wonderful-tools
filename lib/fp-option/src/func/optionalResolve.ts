@@ -14,8 +14,6 @@ import type { Option } from '@types';
  *
  * @param value Data to process
  * @returns Asynchronously returns the value converted to Option type
- *
- * @author Taeyoon Lee <taeyoon0137@gmail.com>
  */
 export async function optionalResolve<T>(p: Promise<T>): Promise<Option<T>> {
   return p.then((v) => some(v)).catch(() => none);

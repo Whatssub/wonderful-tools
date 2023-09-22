@@ -11,8 +11,6 @@ import { OPTION_CONSTANT } from '@configs';
  * ### Some type
  *
  * Used when there is a value.
- *
- * @author Taeyoon Lee <taeyoon0137@gmail.com>
  */
 export type Some<T> = {
   /**
