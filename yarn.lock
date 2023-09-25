@@ -1359,13 +1359,44 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@wonderful-tools/type-email@workspace:lib/type-email"
   dependencies:
-    "@wonderful-tools/util-semver": "workspace:^"
-    "@wonderful-tools/util-spdx": "workspace:^"
     tsc-alias: ^1.8.8
     typescript: ^5.2.2
-  peerDependencies:
-    "@wonderful-tools/util-semver": "workspace:^"
-    "@wonderful-tools/util-spdx": "workspace:^"
+  languageName: unknown
+  linkType: soft
+
+"@wonderful-tools/type-id@workspace:lib/type-id":
+  version: 0.0.0-use.local
+  resolution: "@wonderful-tools/type-id@workspace:lib/type-id"
+  dependencies:
+    tsc-alias: ^1.8.8
+    typescript: ^5.2.2
+  languageName: unknown
+  linkType: soft
+
+"@wonderful-tools/type-image@workspace:lib/type-image":
+  version: 0.0.0-use.local
+  resolution: "@wonderful-tools/type-image@workspace:lib/type-image"
+  dependencies:
+    tsc-alias: ^1.8.8
+    typescript: ^5.2.2
+  languageName: unknown
+  linkType: soft
+
+"@wonderful-tools/type-phone@workspace:lib/type-phone":
+  version: 0.0.0-use.local
+  resolution: "@wonderful-tools/type-phone@workspace:lib/type-phone"
+  dependencies:
+    tsc-alias: ^1.8.8
+    typescript: ^5.2.2
+  languageName: unknown
+  linkType: soft
+
+"@wonderful-tools/type-timestamp@workspace:lib/type-timestamp":
+  version: 0.0.0-use.local
+  resolution: "@wonderful-tools/type-timestamp@workspace:lib/type-timestamp"
+  dependencies:
+    tsc-alias: ^1.8.8
+    typescript: ^5.2.2
   languageName: unknown
   linkType: soft
 
