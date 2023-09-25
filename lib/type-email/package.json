@@ -21,13 +21,7 @@
     "build:types": "tsc -b && tsc-alias"
   },
   "devDependencies": {
-    "@wonderful-tools/util-semver": "workspace:^",
-    "@wonderful-tools/util-spdx": "workspace:^",
     "tsc-alias": "^1.8.8",
     "typescript": "^5.2.2"
-  },
-  "peerDependencies": {
-    "@wonderful-tools/util-semver": "workspace:^",
-    "@wonderful-tools/util-spdx": "workspace:^"
   }
 }
