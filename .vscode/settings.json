@@ -75,7 +75,8 @@
     "**/CVS": true,
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
-    "**/node_modules": true
+    "**/node_modules": true,
+    "**/dist": true,
   },
   // Chagne Folder/File Icon
   // Recommend to install "Material Icon Theme"
