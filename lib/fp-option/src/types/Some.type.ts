@@ -18,12 +18,12 @@ export type Some<T> = {
    *
    * Type checking value to validate type in runtime.
    */
-  _type: typeof OPTION_CONSTANT.TYPE_SOME;
+  readonly _type: typeof OPTION_CONSTANT.TYPE_SOME;
 
   /**
    * ### Value
    *
    * Actual value which data provides
    */
-  value: T;
+  readonly value: T;
 };

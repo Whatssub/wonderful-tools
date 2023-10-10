@@ -18,5 +18,5 @@ export type None = {
    *
    * Type checking value to validate type in runtime.
    */
-  _type: typeof OPTION_CONSTANT.TYPE_NONE;
+  readonly _type: typeof OPTION_CONSTANT.TYPE_NONE;
 };
