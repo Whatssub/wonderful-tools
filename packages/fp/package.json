@@ -25,6 +25,8 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "@wonderful-tools/fp-either": "workspace:^",
+    "@wonderful-tools/fp-function": "workspace:^",
     "@wonderful-tools/fp-option": "workspace:^"
   }
 }

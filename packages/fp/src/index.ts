@@ -7,3 +7,4 @@
 
 export * from '@wonderful-tools/fp-option';
 export * from '@wonderful-tools/fp-either';
+export * from '@wonderful-tools/fp-function';
