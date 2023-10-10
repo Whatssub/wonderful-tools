@@ -17,4 +17,7 @@ import type { Some } from '@types';
  * @param value Value to treat as Some
  * @returns Some
  */
-export const some = <T>(value: T): Some<T> => ({ _type: OPTION_CONSTANT.TYPE_SOME, value });
+export const some = <T>(value: T): Some<T> => ({
+  _type: OPTION_CONSTANT.TYPE_SOME,
+  value,
+});
