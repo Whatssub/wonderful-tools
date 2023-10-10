@@ -8,7 +8,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Whatssub/wonderful-tools.git",
-    "directory": "./lib/fp/either"
+    "directory": "./lib/fp-either"
   },
   "author": {
     "name": "Joonho Lee",
