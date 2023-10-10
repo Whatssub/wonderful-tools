@@ -21,6 +21,7 @@
     "build:types": "tsc -b && tsc-alias"
   },
   "devDependencies": {
+    "@wonderful-tools/fp-function": "workspace:^",
     "tsc-alias": "^1.8.8",
     "typescript": "^5.2.2"
   }

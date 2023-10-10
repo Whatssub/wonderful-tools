@@ -1311,9 +1311,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wonderful-tools/fp-either@workspace:lib/fp-either":
+"@wonderful-tools/fp-either@workspace:^, @wonderful-tools/fp-either@workspace:lib/fp-either":
   version: 0.0.0-use.local
   resolution: "@wonderful-tools/fp-either@workspace:lib/fp-either"
+  dependencies:
+    "@wonderful-tools/fp-function": "workspace:^"
+    tsc-alias: ^1.8.8
+    typescript: ^5.2.2
+  languageName: unknown
+  linkType: soft
+
+"@wonderful-tools/fp-function@workspace:^, @wonderful-tools/fp-function@workspace:lib/fp-function":
+  version: 0.0.0-use.local
+  resolution: "@wonderful-tools/fp-function@workspace:lib/fp-function"
   dependencies:
     tsc-alias: ^1.8.8
     typescript: ^5.2.2
@@ -1333,6 +1343,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@wonderful-tools/fp@workspace:packages/fp"
   dependencies:
+    "@wonderful-tools/fp-either": "workspace:^"
+    "@wonderful-tools/fp-function": "workspace:^"
     "@wonderful-tools/fp-option": "workspace:^"
     tsc-alias: ^1.8.8
     typescript: ^5.2.2
