@@ -6,3 +6,4 @@
  */
 
 export * from '@wonderful-tools/fp-option';
+export * from '@wonderful-tools/fp-either';
