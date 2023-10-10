@@ -1311,6 +1311,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@wonderful-tools/fp-either@workspace:lib/fp-either":
+  version: 0.0.0-use.local
+  resolution: "@wonderful-tools/fp-either@workspace:lib/fp-either"
+  dependencies:
+    tsc-alias: ^1.8.8
+    typescript: ^5.2.2
+  languageName: unknown
+  linkType: soft
+
 "@wonderful-tools/fp-option@workspace:^, @wonderful-tools/fp-option@workspace:lib/fp-option":
   version: 0.0.0-use.local
   resolution: "@wonderful-tools/fp-option@workspace:lib/fp-option"
