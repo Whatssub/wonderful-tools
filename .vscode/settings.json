@@ -76,7 +76,7 @@
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
     "**/node_modules": true,
-    "**/dist": true,
+    "**/dist": true
   },
   // Chagne Folder/File Icon
   // Recommend to install "Material Icon Theme"
@@ -95,7 +95,8 @@
     "next-web": "app",
     "react-app": "app",
     "react-native-app": "app",
-    "react-web": "app"
+    "react-web": "app",
+    "constructors": "cluster"
   },
   // Exclude cache file from search
   "search.exclude": {
